@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App{
+  background-image: linear-gradient(
+  #5e5c5c 100px,
+  #c8bcbc 
+  );
+  
+
+
+//Cabeçalho
+header{
+background-color: #5E5C5C;
+padding: 5vh;
+display: flex;
+justify-content: space-evenly;
+gap: 8vh;
+align-items: center;
+box-shadow: 0px 0px 10px 0px ;
+
+a{
+  margin: 1vh;
+  text-decoration: none;
+  color: #ffff;
+  
+}
+
+.botao-prin, houver{
+  border: solid 1px #001A25;
+  border-radius: 1vh;
+  padding: 0.5vh;
+  background-color: #001A25;
+
+}
+
+.contrate{
+  border: solid 1px #001A25;
+  border-radius: 1vh;
+  padding: 0.5vh;
+  background-color: #001A25;
+}
+}
+
+
+//Primeira Parte
+.principal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 7vh;
+  align-items: center;
+  gap: 4vh;
+  
+.textos{
+    display: flex;
+    flex-direction: column;
+    padding: 8vh;
+    font-size: 3.5vh;
+    gap: 3vh;
+    
+
+    .koji{
+      color: #000;
+      font-size: 5vh;
+      line-height: 11vh;
+      .fusion{
+         color: #ffff;
+      }
+    }
+
+    .parceiros{
+      color: #ffff;
+      font-size: 4vh;
+      line-height: 5vh;
+      
+      .solucao{
+        color: #ff0000;
+      }
+    }
+
+    .comentario{
+      color: #ffff;
+      font-size: 4vh;
+    }
+  }
+  .ninja{
+    width: 130%;
+    height: auto;
+  }
+
+}
+
+
+//Linha
+.center-line {
+  border-radius: 8px ;              /* Remove a borda padrão */
+  height: 3px;            /* Define a espessura da linha */
+  background-color: #ffffff; /* Cor da linha */
+  width: 60%;             /* Define a largura da linha */
+  margin: 20px auto;      /* Centraliza horizontalmente */
+}
+
+
+//Segunda Parte
+/* Estilo para o título */
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-size: 5vh;
+  color: #1E1E1E; /* Cor do título */
+  margin-bottom: 40px;
+  font-family: 'Georgia', serif; /* Estilo similar ao da imagem */
+}
+
+/* Contêiner das imagens */
+.images-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px; /* Espaçamento entre as imagens */
+}
+
+/* Estilo para cada box de imagem */
+.image-box img {
+  width: 900vh; /* Largura da imagem */
+  height: auto; /* Altura automática para manter a proporção */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para as imagens */
+}
+
+}
