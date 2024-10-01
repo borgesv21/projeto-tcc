@@ -49,6 +49,7 @@ export default function App() {
       {/* Contêiner das Imagens */}
       <div className="images-container">
         {/* Primeira Imagem */}
+
         <div className="image-box">
           <img
             src="https://img.freepik.com/free-photo/electric-car-ecology-technology-save-energy-concept_53876-124793.jpg?t=st=1727734936~exp=1727738536~hmac=bdc33c3b26c988f510a0b37557192eecb9df7370d5fb807de74880c2ddcc4576&w=740" // Substitua pelo caminho correto da imagem do laptop com carro elétrico
@@ -63,10 +64,64 @@ export default function App() {
             alt="Travel to Your Dream Destination"
           />
         </div>
-     
+      </div>
 
+
+
+      <div className="container">
+      <h1>Conheça nossa empresa</h1>
+
+      <div className="services">
+        <div className="service">
+          <h2>Redes sociais</h2>
+          <p>
+            Oferecemos gestão completa de postagens e estratégias otimizadas para aumentar o engajamento em suas redes sociais,
+            incluindo Instagram, Facebook, TikTok e Twitter. Nossos métodos são respaldados por análises certeiras, garantindo
+            resultados surpreendentes.
+          </p>
+        </div>
+
+        <div className="service">
+          <h2>Desenvolvimento Web</h2>
+          <p>
+            Desenvolvemos sites, aplicativos, sistemas de design e soluções UX/UI utilizando as melhores ferramentas e
+            metodologias do mercado.
+          </p>
+        </div>
+
+        <div className="service">
+          <h2>CRO</h2>
+          <p>
+            Uma vertical focada em otimizar resultados de conversão de sites e aplicativos, utilizando dados e testes para
+            transformar visitantes em clientes.
+          </p>
+        </div>
+
+        <div className="service">
+          <h2>Anúncios Digitais</h2>
+          <p>
+            Impulsionamos o tráfego e as vendas do seu site. Seja na captação ou na ação, as estratégias baseadas em técnicas de
+            marketing digital fundamentadas no cliente.
+          </p>
+        </div>
+
+        <div className="service">
+          <h2>Branding</h2>
+          <p>
+            Criar uma marca vai além de um logotipo e identidade visual. Desenvolvemos a marca como uma promessa que se alinha
+            aos propósitos do negócio e da concorrência, posicionamento e tom de voz.
+          </p>
+        </div>
+
+        <div className="service">
+          <h2>Data Analytics</h2>
+          <p>
+            Obtenha relatórios detalhados, dashboards em BI, análises estatísticas, modelagens preditivas e o máximo da
+            performance para suas vendas e tomar decisões com mais precisão.
+          </p>
+        </div>
+      </div>
     </div>
-
 
     </div>
   );

@@ -23,14 +23,17 @@ gap: 8vh;
 align-items: center;
 box-shadow: 0px 0px 10px 0px ;
 
+
+
 a{
   margin: 1vh;
   text-decoration: none;
   color: #ffff;
+  font-size: 3vh;
   
 }
 
-.botao-prin, houver{
+.botao-prin {
   border: solid 1px #001A25;
   border-radius: 1vh;
   padding: 0.5vh;
@@ -126,11 +129,47 @@ a{
 }
 
 /* Estilo para cada box de imagem */
-.image-box img {
-  width: 900vh; /* Largura da imagem */
+.image-box img   {
+  width: 100vh; /* Largura da imagem */
   height: auto; /* Altura automática para manter a proporção */
   border-radius: 10px; /* Bordas arredondadas */
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para as imagens */
+  margin-bottom: 10vh;
+}
+
+
+
+
+.container {
+  
+  margin: 0 auto;
+  background-color: #333333 ;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.service h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 1em;
+  line-height: 1.6;
 }
 
 }
