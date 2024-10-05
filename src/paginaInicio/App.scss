@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
@@ -15,39 +20,56 @@
 
 //Cabeçalho
 header{
-background-color: #5E5C5C;
-padding: 5vh;
-display: flex;
-justify-content: space-evenly;
-gap: 8vh;
-align-items: center;
-box-shadow: 0px 0px 10px 0px ;
+  background-color: #5E5C5C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  flex-direction: row;
+  box-shadow: 0px 0px 10px 0px ;
 
+  .logo{
+    display: flex;
+    align-items: center;
+    padding: auto;
 
+  img{
+    height: auto;
+    width: 20vh;
+  }
+  h1{
+    font-size: 7vh;
+    font-family: 'Inknut Antiqua';
+    
+  }
+  .word-white{
+    color: #ffffff;
+  }
+}
+  a{
+    margin: 1vh;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 3vh;
+    
+  }
 
-a{
-  margin: 1vh;
-  text-decoration: none;
-  color: #ffff;
-  font-size: 3vh;
-  
+  .botao-prin {
+    border: solid 3px #001A25;
+    border-radius: 2vh;
+    padding: 0.5vh;
+    background-color: #001A25;
+
+  }
+
+  .contrate{
+    margin-right: 120px;
+    padding: 2px 35px;
+    border: solid 0.5vh #001A25;
+    border-radius: 1vh;
+    background-color: #001A25;
+  }
 }
 
-.botao-prin {
-  border: solid 1px #001A25;
-  border-radius: 1vh;
-  padding: 0.5vh;
-  background-color: #001A25;
-
-}
-
-.contrate{
-  border: solid 1px #001A25;
-  border-radius: 1vh;
-  padding: 0.5vh;
-  background-color: #001A25;
-}
-}
 
 
 //Primeira Parte
@@ -55,17 +77,21 @@ a{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 7vh;
+  margin: 5vh;
   align-items: center;
-  gap: 4vh;
+  
   
 .textos{
     display: flex;
     flex-direction: column;
-    padding: 8vh;
+    padding: vh;
     font-size: 3.5vh;
-    gap: 3vh;
+    line-height: 5vh;
+    gap: 1vh;
     
+    .logo-marca{
+      font-family: 'Inknut Antiqua';
+    }
 
     .koji{
       color: #000;
@@ -78,9 +104,7 @@ a{
 
     .parceiros{
       color: #ffff;
-      font-size: 4vh;
-      line-height: 5vh;
-      
+    
       .solucao{
         color: #ff0000;
       }
@@ -88,7 +112,6 @@ a{
 
     .comentario{
       color: #ffff;
-      font-size: 4vh;
     }
   }
   .ninja{
@@ -117,7 +140,7 @@ a{
   font-size: 5vh;
   color: #1E1E1E; /* Cor do título */
   margin-bottom: 40px;
-  font-family: 'Georgia', serif; /* Estilo similar ao da imagem */
+  font-family: 'Inknut Antiqua'; /* Estilo similar ao da imagem */
 }
 
 /* Contêiner das imagens */
@@ -141,14 +164,16 @@ a{
 
 
 .container {
-  
+  padding: 20px;
   margin: 0 auto;
   background-color: #333333 ;
+  color: #ffffff;
 }
 
 h1 {
   text-align: center;
   margin-bottom: 40px;
+  font-family: 'Inknut Antiqua';
 }
 
 .services {

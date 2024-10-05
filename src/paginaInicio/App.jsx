@@ -1,18 +1,22 @@
-
+import ninja from '../../src/assets/images/ninja.png'
+import logo from '../../src/assets/images/logo.png'
 import './App.scss';
 
 export default function App() {
   return (
     <div className="App">
-        <header>
-      
-      <h1>KOJI FUSION</h1>
-
-      <nav>
-        <a  className="botao-prin" href="">Home</a>
-        <a href="https://www.youtube.com/">Sobre</a>
-        <a href="">Soluções</a>
-      </nav>
+      <header>
+        <div className='logo'>
+          <img src={logo} alt="" />
+          <h1>KOJI </h1>
+          <h1 className='word-white'>FUSION</h1>
+        </div>
+        
+        <nav>
+          <a className="botao-prin" href="">Home</a>
+          <a href="">Sobre</a>
+          <a href="">Soluções</a>
+        </nav>
 
       <a className="contrate" href="">Contrate-nos</a>
     </header>
@@ -20,8 +24,8 @@ export default function App() {
     <div className="principal">
 
       <div className="textos">
-          <div className='koji'><h1>Olá, somos a <br/> KOJI<span className='fusion'> FUSION</span></h1></div>
-          <div className='parceiros'><h3>Seu Parceiro em <span className='solucao'>Soluções <br />Tecnológicas</span> Eficazes</h3></div>
+          <div className='koji'><h1>Olá, somos a <br/> <span className='logo-marca'>KOJI<span className='fusion'> FUSION</span></span></h1></div>
+          <div className='parceiros'><h3>Seu Parceiro em <span className='solucao'>Soluções <br/>Tecnológicas</span> Eficazes</h3></div>
           <div className='comentario'>
               <p>Criação de sites pessoal e empresarial. </p>
               <p>Manutenção de Software e Hardware</p>
@@ -30,7 +34,7 @@ export default function App() {
   
 
     <div className='imagem-ninja'>
-      <img className='ninja'  src="https://cdn.discordapp.com/attachments/1273457474803863685/1274812664337666098/Premium_Vector___Cute_ninja_watching_a_laptop_cartoon_ilustration-removebg-preview.png?ex=66fc4dd0&is=66fafc50&hm=cb9a60db08527a04a6c325d45a4e51f6a9769c0600cfdb62d56a3edde85925a8&" alt="Ninja codando" />
+      <img className='ninja'  src={ninja} alt="Ninja codando" />
     </div>
 
     
