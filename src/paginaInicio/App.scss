@@ -12,8 +12,13 @@
 
 .App{
   background-image: linear-gradient(
-  #5e5c5c 100px,
-  #c8bcbc 
+  #615F5F,
+  #6B6969 5%,
+  #B7B3B3 23%,
+  #C0BCBC 37%,
+  #646262 86%,
+  #BCB8B8 92%,
+  #A3A0A0 94%
   );
   
 
@@ -50,6 +55,7 @@ header{
     text-decoration: none;
     color: #ffff;
     font-size: 3vh;
+    font-family: 'Inter';
     
   }
 
@@ -88,6 +94,7 @@ header{
     font-size: 3.5vh;
     line-height: 5vh;
     gap: 1vh;
+    font-family: 'Inter';
     
     .logo-marca{
       font-family: 'Inknut Antiqua';
@@ -96,6 +103,7 @@ header{
     .koji{
       color: #000;
       font-size: 5vh;
+      margin-right: 1vh;
       line-height: 11vh;
       .fusion{
          color: #ffff;
@@ -162,39 +170,50 @@ header{
 
 
 
-
+//Parte cinza
 .container {
   padding: 20px;
   margin: 0 auto;
   background-color: #333333 ;
   color: #ffffff;
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Inknut Antiqua';
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Inter';
+  }
+  
+  .service {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .service h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 40px;
-  font-family: 'Inknut Antiqua';
-}
 
-.services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
-.service {
-  width: 30%;
-  margin-bottom: 20px;
-}
 
-.service h2 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
 
-.service p {
-  font-size: 1em;
-  line-height: 1.6;
-}
+
+
+
+
 
 }

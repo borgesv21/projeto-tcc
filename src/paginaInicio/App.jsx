@@ -19,7 +19,7 @@ export default function App() {
         </nav>
 
       <a className="contrate" href="">Contrate-nos</a>
-    </header>
+      </header>
 
     <div className="principal">
 
@@ -40,20 +40,21 @@ export default function App() {
     
 
     
-  </div>
+    </div>
 
   <hr class="center-line"/>
   
 
-     {/* Título da Página */}
+     
      
         <h1 className='titulo'>Transformando Ideias em Experiências Digitais Únicas</h1>
       
       
-      {/* Contêiner das Imagens */}
+      
       <div className="images-container">
-        {/* Primeira Imagem */}
+        
 
+        
         <div className="image-box">
           <img
             src="https://img.freepik.com/free-photo/electric-car-ecology-technology-save-energy-concept_53876-124793.jpg?t=st=1727734936~exp=1727738536~hmac=bdc33c3b26c988f510a0b37557192eecb9df7370d5fb807de74880c2ddcc4576&w=740" // Substitua pelo caminho correto da imagem do laptop com carro elétrico
@@ -125,7 +126,18 @@ export default function App() {
           </p>
         </div>
       </div>
-    </div>
+      </div>
+
+
+
+     
+
+
+
+
+
+
+
 
     </div>
   );
