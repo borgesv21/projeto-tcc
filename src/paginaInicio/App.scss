@@ -1,62 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-.App{
+.App {
   background-image: linear-gradient(
-  #615F5F,
-  #6B6969 5%,
-  #B7B3B3 23%,
-  #C0BCBC 37%,
-  #646262 86%,
-  #BCB8B8 92%,
-  #A3A0A0 94%
+    #615F5F,
+    #6B6969 5%,
+    #B7B3B3 23%,
+    #C0BCBC 37%,
+    #646262 86%,
+    #BCB8B8 92%,
+    #A3A0A0 94%
   );
-  
+}
 
-
-//Cabeçalho
-header{
+// Cabeçalho
+header {
   background-color: #5E5C5C;
   display: flex;
   justify-content: space-between;
-  align-items: center ;
+  align-items: center;
   flex-direction: row;
-  box-shadow: 0px 0px 10px 0px ;
+  box-shadow: 0px 0px 10px 0px;
 
-  .logo{
+  .logo {
     display: flex;
     align-items: center;
     padding: auto;
 
-  img{
-    height: auto;
-    width: 20vh;
+    img {
+      height: auto;
+      width: 20vh;
+    }
+    h1 {
+      font-size: 7vh;
+      font-family: 'Inknut Antiqua';
+    }
+    .word-white {
+      color: #ffffff;
+    }
   }
-  h1{
-    font-size: 7vh;
-    font-family: 'Inknut Antiqua';
-    
-  }
-  .word-white{
-    color: #ffffff;
-  }
-}
-  a{
+
+  a {
     margin: 1vh;
     text-decoration: none;
     color: #ffff;
     font-size: 3vh;
     font-family: 'Inter';
-    
   }
 
   .botao-prin {
@@ -64,156 +59,246 @@ header{
     border-radius: 2vh;
     padding: 0.5vh;
     background-color: #001A25;
-
   }
 
-  .contrate{
+  .contrate {
     margin-right: 120px;
     padding: 2px 35px;
     border: solid 0.5vh #001A25;
-    border-radius: 1vh;
+    border-radius: 2vh;
     background-color: #001A25;
   }
 }
 
-
-
-//Primeira Parte
-.principal{
+// Primeira Parte
+.principal {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 5vh;
   align-items: center;
-  
-  
-.textos{
+
+  .textos {
     display: flex;
     flex-direction: column;
-    padding: vh;
-    font-size: 3.5vh;
-    line-height: 5vh;
-    gap: 1vh;
+    font-size: 3.5dvh;
+    line-height: 5dvh;
+    gap: 1dvh;
     font-family: 'Inter';
-    
-    .logo-marca{
+
+    .logo-marca {
       font-family: 'Inknut Antiqua';
     }
 
-    .koji{
+    .koji {
       color: #000;
       font-size: 5vh;
       margin-right: 1vh;
       line-height: 11vh;
-      .fusion{
-         color: #ffff;
+
+      .fusion {
+        color: #ffff;
       }
     }
 
-    .parceiros{
+    .parceiros {
       color: #ffff;
-    
-      .solucao{
+
+      .solucao {
         color: #ff0000;
       }
     }
 
-    .comentario{
+    .comentario {
       color: #ffff;
     }
   }
-  .ninja{
+  .ninja {
     width: 130%;
     height: auto;
   }
-
 }
 
-
-//Linha
+// Linha
 .center-line {
-  border-radius: 8px ;              /* Remove a borda padrão */
-  height: 3px;            /* Define a espessura da linha */
-  background-color: #ffffff; /* Cor da linha */
-  width: 60%;             /* Define a largura da linha */
-  margin: 20px auto;      /* Centraliza horizontalmente */
+  border-radius: 8px;
+  height: 3px;
+  background-color: #ffffff;
+  width: 60%;
+  margin: 20px auto;
 }
 
-
-//Segunda Parte
-/* Estilo para o título */
+// Segunda Parte
 .titulo {
   display: flex;
   justify-content: center;
-  font-size: 5vh;
-  color: #1E1E1E; /* Cor do título */
+  font-size: 5dvh;
+  color: #1E1E1E;
   margin-bottom: 40px;
-  font-family: 'Inknut Antiqua'; /* Estilo similar ao da imagem */
+  font-family: 'Inknut Antiqua';
 }
 
-/* Contêiner das imagens */
+// Contêiner das imagens
 .images-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 10px; /* Espaçamento entre as imagens */
+  gap: 1dvh;
 }
 
-/* Estilo para cada box de imagem */
-.image-box img   {
-  width: 100vh; /* Largura da imagem */
-  height: auto; /* Altura automática para manter a proporção */
-  border-radius: 10px; /* Bordas arredondadas */
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para as imagens */
+.image-box img {
+  width: 100dvh;
+  height: 60dvh;
+  border-radius: 2dvh;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
   margin-bottom: 10vh;
 }
 
-
-
-//Parte cinza
+// Parte cinza
 .container {
   padding: 20px;
   margin: 0 auto;
-  background-color: #333333 ;
+  background-color: #333333;
   color: #ffffff;
-  
+
   h1 {
     text-align: center;
     margin-bottom: 40px;
     font-family: 'Inknut Antiqua';
   }
-  
+
   .services {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     font-family: 'Inter';
   }
-  
+
   .service {
     width: 30%;
     margin-bottom: 20px;
   }
-  
+
   .service h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
   }
-  
+
   .service p {
     font-size: 1em;
     line-height: 1.6;
   }
-  
 }
 
+// Responsividade
+@media (max-width: 1024px) {
+  .principal {
+    flex-direction: column;
 
+    .ninja {
+      width: 100%;
+    }
+  }
 
+  .images-container {
+    flex-direction: column;
+  }
 
+  .image-box img {
+    width: 80vw;
+    height: auto;
+  }
 
+  header {
+    flex-direction: column;
 
+    .logo h1 {
+      font-size: 5vh;
+    }
 
+    a {
+      font-size: 2.5vh;
+    }
 
+    .contrate {
+      margin-right: 0;
+      padding: 1vh 2vh;
+      font-size: 2.5vh;
+    }
+  }
+}
 
+@media (max-width: 768px) {
+  header {
+    .logo img {
+      width: 15vh;
+    }
+    .logo h1 {
+      font-size: 4vh;
+      
+    }
 
+    a {
+      font-size: 2vh;
+      
+    }
+  }
+
+  .principal .textos {
+    font-size: 2.5dvh;
+    line-height: 3.5dvh;
+  }
+
+  .titulo {
+    font-size: 4dvh;
+  }
+
+  .images-container {
+    gap: 2vh;
+  }
+
+  .image-box img {
+    width: 90vw;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .principal {
+    .ninja {
+      width: 100%;
+    }
+  }
+
+  header {
+    .logo img {
+      width: 12vh;
+    }
+
+    .logo h1 {
+      font-size: 3.5vh;
+    }
+
+    a {
+      font-size: 1.8vh;
+    }
+
+    .contrate {
+      padding: 1vh 2vh;
+      font-size: 2vh;
+    }
+  }
+
+  .principal .textos {
+    font-size: 2vh;
+    line-height: 3dvh;
+  }
+
+  .titulo {
+    font-size: 3.5dvh;
+  }
+
+  .image-box img {
+    width: 100vw;
+    height: auto;
+  }
 }

@@ -28,7 +28,7 @@ export default function App() {
           <div className='parceiros'><h3>Seu Parceiro em <span className='solucao'>Soluções <br/>Tecnológicas</span> Eficazes</h3></div>
           <div className='comentario'>
               <p>Criação de sites pessoal e empresarial. </p>
-              <p>Manutenção de Software e Hardware</p>
+              <p>Manutenção de Software e Hardware.</p>
           </div>
       </div>
   
@@ -127,6 +127,7 @@ export default function App() {
         </div>
       </div>
       </div>
+      
 
 
 
