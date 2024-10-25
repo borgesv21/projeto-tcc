@@ -17,7 +17,7 @@
     #BCB8B8 92%,
     #A3A0A0 94%
   );
-}
+
 
 // Cabeçalho
 header {
@@ -188,6 +188,19 @@ header {
     line-height: 1.6;
   }
 }
+footer{
+  
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: static;
+  width: 100%;
+  bottom: 0;
+  text-decoration: none;
+  font-family: "Inter" ;
+
+}
+}
 
 // Responsividade
 @media (max-width: 1024px) {
@@ -234,12 +247,10 @@ header {
     }
     .logo h1 {
       font-size: 4vh;
-      
     }
 
     a {
       font-size: 2vh;
-      
     }
   }
 
