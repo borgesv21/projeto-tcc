@@ -1,6 +1,9 @@
 import ninja from '../../src/assets/images/ninja.png'
 import logo from '../../src/assets/images/logo.png'
 import './App.scss';
+import { Link } from 'react-router-dom';
+
+
 
 export default function App() {
   return (
@@ -18,7 +21,7 @@ export default function App() {
           <a href="">Soluções</a>
         </nav>
 
-      <a className="contrate" href="">Contrate-nos</a>
+      <Link to= '/contrate' className="contrate" href="">Contrate-nos</Link>
       </header>
 
     <div className="principal">
