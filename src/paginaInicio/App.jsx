@@ -1,5 +1,7 @@
 import ninja from '../../src/assets/images/ninja.png'
 import logo from '../../src/assets/images/logo.png'
+import comput from '../assets/images/computador.avif'
+import note from '../assets/images/notebook.avif'
 import './App.scss';
 import { Link } from 'react-router-dom';
 
@@ -68,7 +70,7 @@ export default function App() {
       <div className="images-container">
         <div className="image-box">
           <img
-            src="https://img.freepik.com/free-photo/electric-car-ecology-technology-save-energy-concept_53876-124793.jpg?t=st=1727734936~exp=1727738536~hmac=bdc33c3b26c988f510a0b37557192eecb9df7370d5fb807de74880c2ddcc4576&w=740" // Substitua pelo caminho correto da imagem do laptop com carro elétrico
+            src={note} // Substitua pelo caminho correto da imagem do laptop com carro elétrico
             alt="Laptop com Carro Elétrico"
           />
         </div>
@@ -76,7 +78,7 @@ export default function App() {
         {/* Segunda Imagem */}
         <div className="image-box">
           <img
-            src="https://img.freepik.com/free-photo/homepage-seen-computer-screen_23-2149416723.jpg?t=st=1727734981~exp=1727738581~hmac=94d2f6e935b6c970a1b9d3ac39374cd5cb1f6f86e4fc84e118292737ed085080&w=826" // Substitua pelo caminho correto da imagem das telas de destino
+            src={comput} // Substitua pelo caminho correto da imagem das telas de destino
             alt="Travel to Your Dream Destination"
           />
         </div>

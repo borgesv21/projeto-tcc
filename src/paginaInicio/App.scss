@@ -18,7 +18,7 @@
     #A3A0A0 94%
   );
 
-
+}
 // Cabeçalho
 header {
   background-color: #5E5C5C;
@@ -35,10 +35,10 @@ header {
 
     img {
       height: auto;
-      width: 20vh;
+      width: 10vh;
     }
     h1 {
-      font-size: 7vh;
+      font-size: 5vh;
       font-family: 'Inknut Antiqua';
     }
     .word-white {
@@ -50,7 +50,7 @@ header {
     margin: 1vh;
     text-decoration: none;
     color: #ffff;
-    font-size: 3vh;
+    
     font-family: 'Inter';
   }
 
@@ -80,10 +80,10 @@ header {
   .textos {
     display: flex;
     flex-direction: column;
-    font-size: 3.5dvh;
-    line-height: 5dvh;
+    line-height: 4dvh;
     gap: 1dvh;
     font-family: 'Inter';
+    margin-left: 15dvh;
 
     .logo-marca {
       font-family: 'Inknut Antiqua';
@@ -91,9 +91,8 @@ header {
 
     .koji {
       color: #000;
-      font-size: 5vh;
-      margin-right: 1vh;
-      line-height: 11vh;
+      font-size: 4dvh;
+      line-height: 7vh;
 
       .fusion {
         color: #ffff;
@@ -102,6 +101,7 @@ header {
 
     .parceiros {
       color: #ffff;
+      font-size: 3dvh;
 
       .solucao {
         color: #ff0000;
@@ -110,10 +110,11 @@ header {
 
     .comentario {
       color: #ffff;
+      font-size: 3dvh;
     }
   }
   .ninja {
-    width: 130%;
+    width: 90%;
     height: auto;
   }
 }
@@ -131,7 +132,9 @@ header {
 .titulo {
   display: flex;
   justify-content: center;
-  font-size: 5dvh;
+  align-items: center;
+  line-height: 5dvh;
+  font-size: 4dvh;
   color: #1E1E1E;
   margin-bottom: 40px;
   font-family: 'Inknut Antiqua';
@@ -140,14 +143,16 @@ header {
 // Contêiner das imagens
 .images-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   gap: 1dvh;
-}
 
+
+
+}
 .image-box img {
-  width: 100dvh;
-  height: 60dvh;
+  width: 70dvh;
+  height: 50dvh;
   border-radius: 2dvh;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
   margin-bottom: 10vh;
@@ -200,12 +205,16 @@ footer{
   font-family: "Inter" ;
 
 }
-}
+
 
 // Responsividade
 @media (max-width: 1024px) {
   .principal {
     flex-direction: column;
+    h1, h3, p, span{
+      font-size: 2dvh;
+      line-height: 3dvh;
+    }
 
     .ninja {
       width: 100%;
@@ -217,12 +226,14 @@ footer{
   }
 
   .image-box img {
-    width: 80vw;
-    height: auto;
+    width: 1dvh;
+    height: 1dvh;
   }
 
   header {
+    display: flex;
     flex-direction: column;
+    font-size: 1dvh;
 
     .logo h1 {
       font-size: 5vh;
@@ -255,7 +266,8 @@ footer{
   }
 
   .principal .textos {
-    font-size: 2.5dvh;
+    margin-top: 10px;
+    font-size: 4.5dvh;
     line-height: 3.5dvh;
   }
 
@@ -268,7 +280,8 @@ footer{
   }
 
   .image-box img {
-    width: 90vw;
+    margin-left: 30px;
+    width: 90%;
     height: auto;
   }
 }
