@@ -25,10 +25,10 @@ export default function Contrate() {
   return (
     <div className="tudo">
 
-     <Link to='/'><img  src={home} alt="Logo" className="home" /></Link> 
+    
 
       <div className="formulario">
-        
+         <Link to='/'><img  src={home} alt="Logo" className="home" /></Link>  
         <div className="textos">
           <h1 className='h1'>Não hesite em nos Contratar</h1>
           <h2  className='h2'>Envie sua proposta</h2>
